@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require([$1], function(${2:${1/([,]?\s*)["'](?:[\w_$]+[\/\!])*([\w_$]+)(?:\.\S*)?["']?/$1$2/g}}) {
+
+	${0:// Do cool stuff with required modules}
+});</string>
+	<key>name</key>
+	<string>require</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>require</string>
+	<key>uuid</key>
+	<string>FADD4C23-799E-4819-953E-9B12014AE299</string>
+</dict>
+</plist>

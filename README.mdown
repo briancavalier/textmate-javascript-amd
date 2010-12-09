@@ -1,0 +1,12 @@
+# AMD require and define
+
+This bundle provides two snippets 'require' and 'define' to make writing and using [AMD](http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition) modules fast and easy.
+
+## How to use it
+
+1. Type `require<tab>` to generate a skeleton call to `require`, or `define<tab>` to generate a skeleton module definition.  Your cursor will be positioned inside the dependency array.
+2. Type the dependencies like you normally would, and the snippet will do its best to generate some reasonable parameter names for the callback function.
+3. Hit `tab` to jump to the parameters and adjust them if necessary (or just leave them alone).
+4. Hit `tab` again to jump into the callback and start writing some awesome Javascript.
+	
+If you have any suggestions, please let me know!

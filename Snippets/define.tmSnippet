@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>define([$1], function(${2:${1/([,]?\s*)["'](?:[\w_$]+[\/\!])*([\w_$]+)(?:\.\S*)?["']?/$1$2/g}}) {
+
+	${0:// Define module here}
+
+	return ${3:moduleDefinition};
+});</string>
+	<key>name</key>
+	<string>define</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>define</string>
+	<key>uuid</key>
+	<string>E25562D0-509C-4BD9-B62E-A9DD59767D60</string>
+</dict>
+</plist>
